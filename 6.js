@@ -4,7 +4,7 @@ fornecida por parâmetro. Por exemplo, o usuário informa a string “Brocolis�
 retorna o número 3 (há 3 vogais nessa palavra).
 */
 
-function contarVogals (str) {
+function contarVogais (str) {
     let vogais = ["a", "e", "i", "o", "u"];
     let qtd = 0;
 
@@ -16,4 +16,4 @@ function contarVogals (str) {
     return qtd;
 }
 
-console.log(contarVogals("Brocolis"));
+console.log(contarVogais("Brocolis"));
